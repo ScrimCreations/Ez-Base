@@ -28,7 +28,7 @@ namespace EzBase
         {
             public override void OnInitializeMelon()
             {
-                //When your mod starts
+                //When your mod starts lol
                 Patches.Patches.Init();
                 MelonCoroutines.Start(WaitForQuickMenu());
             }
