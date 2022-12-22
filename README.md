@@ -1,2 +1,2 @@
 # Ez Base
-A simple base to start your off your VRChat mod
+A simple base to start off your VRChat mod
