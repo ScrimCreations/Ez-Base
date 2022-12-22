@@ -16,7 +16,7 @@ using Mod = EzBase.MainClass.MyMod;
 
 [assembly: MelonColor(ConsoleColor.Cyan)] //Your Mod color
 [assembly: MelonAuthorColor(ConsoleColor.Magenta)] //Your Author color
-[assembly: MelonPriority(0)] //Leave it at 0 to load your mod before any one else's (because we are just better)
+[assembly: MelonPriority(0)] //Leave it at 0 to load your mod before anyone else's (because we are just better)
 
 namespace EzBase
 {
