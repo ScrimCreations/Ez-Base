@@ -50,6 +50,7 @@ namespace EzBase
 
             private static IEnumerator WaitForQuickMenu()
             {
+                //Waits for the VRChat Quickmenu and then loads your menus
                 while (UnityEngine.Object.FindObjectOfType<VRC.UI.Elements.QuickMenu>() == null) yield return null;
                 new WaitForSeconds(0.259f);
                 MenuManager.Initialize();
@@ -59,7 +60,7 @@ namespace EzBase
             public override void OnApplicationQuit()
             {
                 MelonPreferences.Save(); //Saves yo melonshit if you use melonprefs
-                Thread.Sleep(542);
+                Thread.Sleep(542); //Just incase :)
                 Process.GetCurrentProcess().Kill(); //Closes the game faster
             }
         }
