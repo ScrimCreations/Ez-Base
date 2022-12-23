@@ -9,6 +9,7 @@ namespace ApolloCore.API
 {
     public static class APIUtils
     {
+        //API by WTFBlaze
         internal const string Identifier = MenuManager.MenuIdent;
         private static readonly System.Random rnd = new();
         private static VRC.UI.Elements.QuickMenu _quickMenu;
