@@ -52,7 +52,7 @@ namespace EzBase
             {
                 //Waits for the VRChat Quickmenu and then loads your menus
                 while (UnityEngine.Object.FindObjectOfType<VRC.UI.Elements.QuickMenu>() == null) yield return null;
-                new WaitForSeconds(0.259f);
+                new WaitForSeconds(0.259f); //waits just incase
                 MenuManager.Initialize();
                 yield break;
             }
